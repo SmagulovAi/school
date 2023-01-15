@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+
+.wrapper {
+    max-width: 1100px; 
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #EEEFF1;
+}
+.header__nav {
+    float: right;
+    
+}
+.header__nav ul {
+    list-style: none;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+.header__nav li {
+    float: left;
+    margin-right: 42px; 
+}
+.header__item li:last-of-type {
+    margin-right: 0;
+}
+.header__item {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+.header__item_active {
+    color: #34547A;
+}
+.clearfix {
+    clear: both;
+}
